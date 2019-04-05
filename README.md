@@ -7,7 +7,7 @@
 ## Overview
 
 이 캡슐은 간단한 식당 검색 캡슐입니다. 
-이 캡슐을 통하여 간단한 selection learning 및 continuative conversaion 기능에 대한 사용법을 알 수 있습니다.
+이 캡슐을 통하여 간단한 selection learning 및 continuative conversation 기능에 대한 사용법을 알 수 있습니다.
 
 ## Example flow
 

@@ -1,13 +1,15 @@
-//다른 경로의 파일을 가져옵니다.
-var fakeData = require("./data/StoreData.js");
-
 function makeAddress(element){
-  var tmp = element;
+  let tmp = element;
   tmp.location = element.location.levelOneDiv + " " + element.location.levelTwoDiv + " " + element.location.place;
   return tmp;
 }
 
 module.exports.function = function findStore (location, place) {
+  const fail = require('fail');
+  const console = require('console');
+  //다른 경로의 파일을 가져옵니다.
+  let fakeData = require("./data/StoreData.js");
+
   if(!location && !place){
     throw fail.checkedError("No Result", "NoResult");  
   }
@@ -15,7 +17,7 @@ module.exports.function = function findStore (location, place) {
   console.log(location);
   console.log(place);
   
-  var result = [];
+  let result = [];
   
   fakeData.forEach(function (element){
     if(!location){
