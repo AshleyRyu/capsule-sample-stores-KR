@@ -37,7 +37,7 @@ result-view {
   
   // 결과 화면 하단에 다음에 이어질 수 있는 발화를 보여줌(https://bixbydevelopers.com/dev/docs/dev-guide/developers/enhancing-UX.conversation-drivers)
   // continuation 발화를 하시려면 training에서 continiation-of를 사용해야함
-  // (https://bixbydevelopers.com/dev/docs/dev-guide/developers/training.intro-training#add-training-examples-for-continuations)
+  // 참조 (https://bixbydevelopers.com/dev/docs/dev-guide/developers/training.intro-training#add-training-examples-for-continuations)
   conversation-drivers {
     if (size(this) == 1) {
       conversation-driver {
