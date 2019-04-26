@@ -2,7 +2,7 @@ description {
   displayName (가게 찾기)
   companyName (가게 찾기)
   iconUrl (/img/bixby_launcher.png)
-  description ("간단한 가게 찾기 캡슐입니다")
+  description ("간단한 가게 찾기 입니다")
   websiteUrl (https://github.com/bixbydevelopers/capsule-sample-stores-KR)
   termsUrl (https://github.com/bixbydevelopers/capsule-sample-stores-KR/blob/master/LICENSE)
   dispatch-name (가게 찾기)
